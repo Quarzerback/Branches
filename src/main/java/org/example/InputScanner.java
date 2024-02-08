@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class InputScanner {
-    Scanner scanner;
+    private Scanner scanner;
 
     public InputScanner() {
         scanner = new Scanner(System.in);
